@@ -31,7 +31,7 @@ function App() {
         </Routes>
         
         <footer className="py-8 text-center text-neutral-600 text-sm">
-           © {new Date().getFullYear()} Parth Sharma. Crafted with React & Tailwind.
+           © {new Date().getFullYear()} Prince Kanoujiya. Crafted with React & Tailwind.
         </footer>
       </div>
     </Router>

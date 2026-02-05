@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Layers } from 'lucide-react';
+import BlurText from '../UI/BlurText';
 
 const Hero = () => {
   return (
@@ -8,15 +9,15 @@ const Hero = () => {
       <div className="w-full" />
 
       <div className="flex flex-col items-center justify-center z-10">
-        <motion.h1 
-          initial={{ y: 100, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-[18vw] font-black leading-none tracking-tighter text-white select-none mix-blend-overlay opacity-90"
-          style={{ fontFamily: 'Clash Display, sans-serif' }}
-        >
-          PARTH
-        </motion.h1>
+        <div className="select-none mix-blend-overlay opacity-90">
+          <BlurText 
+            text="PRINCE"
+            className="text-[18vw] font-black leading-none tracking-tighter text-white"
+            delay={150}
+            animateBy="letters"
+            direction="bottom"
+          />
+        </div>
         
         <div className="mt-8 text-center space-y-2">
           <motion.p 
@@ -42,7 +43,7 @@ const Hero = () => {
         <div className="flex flex-col items-center gap-2">
           <MapPin className="w-5 h-5 text-emerald-500" />
           <div className="text-center text-neutral-400">
-            <span className="text-white block">BASED IN NOIDA</span>
+            <span className="text-white block">BASED IN BENGALURU</span>
             INDIA
           </div>
         </div>

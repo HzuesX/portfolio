@@ -32,7 +32,7 @@ const BentoGrid = () => {
               <div className="flex justify-between items-start mb-6">
                  <div>
                     <h3 className="text-xs font-medium tracking-widest text-emerald-400 mb-2">FEATURED PROJECT</h3>
-                    <h2 className="text-3xl font-bold text-white font-display">Rune AI</h2>
+                    <h2 className="text-3xl font-bold text-white font-display">Residential Community Hub</h2>
                  </div>
                  <button className="px-4 py-2 rounded-full border border-white/20 text-sm hover:bg-white hover:text-black transition-all">
                     View Case Study
@@ -58,7 +58,7 @@ const BentoGrid = () => {
         <div className="lg:col-span-1 lg:row-span-2 flex flex-col gap-4">
             <InfoCard 
                title="Experience" 
-               sub="3+ Years building products" 
+               sub="2+ Years building products" 
                icon={<span className="text-xl">🚀</span>}
             />
              <InfoCard 
@@ -68,7 +68,7 @@ const BentoGrid = () => {
             />
              <div className="glass-panel rounded-[24px] p-6 flex-1 flex items-center justify-center text-center min-h-[180px]">
                 <div>
-                   <h3 className="text-4xl font-bold text-white font-display mb-2">100+</h3>
+                   <h3 className="text-4xl font-bold text-white font-display mb-2">10+</h3>
                    <p className="text-sm text-neutral-400">Happy Clients</p>
                 </div>
              </div>
